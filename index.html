@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="form.css"/>
+        <title>Login-Form</title>
+      </head>
+      <body>
+        <h1>Login</h1>
+
+         <!-- form container -->
+        <div class="container">
+          <form action="/action_page.php" onsubmit="return validate()">
+            <!-- input types -->
+            <div class="form-input">
+             <label class="label">Email</label><br>
+              <input type="email" name="email" class="input-field" id="email">
+              <div id="error1"></div>
+
+              <br><br>
+             <label class="label">Password</label><br>
+              <input type="password" name="password" class="input-field" id="pwd">
+              <div id="error2"></div>
+            </div>
+            <!-- ends here -->
+
+            <!-- submit button -->
+            <div class="button">
+                <input type="submit" class="btn" id="btn" value="Login" onclick="return validate()">
+            </div>
+          </div>
+          <!-- ends here -->
+          
+          <!-- forgoten password link -->
+          <div class="links">
+              <a href="#" class="pass">Forgot password</a>
+              <p>Don't have an account? <a href="#" class="pass">Sign up</a></p>
+          </div>
+          <!--  ends here -->
+          </form>
+        </div>
+        <!-- ends here -->
+          <script type="text/javascript" src="login.js"></script>
+      </body>
+</html>
+    

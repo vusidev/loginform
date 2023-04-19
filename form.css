@@ -1,0 +1,89 @@
+
+          * {
+            box-sizing: border-box;
+          }
+
+           /*  h1 element */
+          h1 {
+            color: crimson;
+            font-size: 1.5em;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+          }
+          /* ends here */
+          
+           /* container box */
+          .container {
+              background: #fff;
+              padding: 12px;
+              margin-top: 80px;
+              height: 350px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              align-content: center;
+              border-radius: 5px;
+              box-shadow: 1px 1px 1px 1px silver;
+          }
+          /* ends here */
+          
+          /* label names */
+          .label {
+              color: #000;
+              font-family: 'Serif', 'Arial', 'Sans-Serif';
+          }
+          /* ends here */
+
+          /* type input */
+          .input-field {
+              width: 75vw;
+              padding: 12px;
+              border: 1px solid gray;
+              border-radius: 2px;
+              outline: none;
+          }
+          /* ends here */
+
+          /* button for submit */
+          .btn {
+              background: crimson;
+              width: 75vw;
+              padding: 12px;
+              color: white;
+              border: 1px solid red;
+              font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+              font-size: 1.2em;
+              margin: 20px auto;
+              border-radius: 2px;
+              box-shadow: 2px 1px 1px 1px silver;
+          }
+          /* ends here */
+
+          /* Forgot password link */
+          .links {
+              font-family: 'Times New Roman', 'Monospace', 'serif', Arial, Sans-Serif;
+              font-size: 1.1em;
+              margin-top: 15px;
+              text-align: center;
+              line-height: 10px;  
+          }
+           /* ends here */
+          
+           /* a href for the password */
+          .pass {
+              color: crimson;
+              text-decoration: none;
+          }
+          
+           /* p for singup */
+          p {
+              color: gray;
+          }
+          
+          /* error div for javascript validation */
+          #error1,
+          #error2 {
+              color: red;
+              font-size: 0.9em;
+          }
+          /* ends here */
